@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  height: 100vh;
+}
+
+.Header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.headerLeft, .headerRight {
+  display: block;
+}
+
+.headerText {
+  text-align: left;
+}
+
+.Fish-tank {
+  background-color: pink;
+  padding: 20px;
+  color: black;
+  display: flex;
+  height: 50%;
+}
+
+.tank-container {
+  margin: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.Form {
+  background-color: grey;
+  padding: 20px;
+  color: white;
+  display: flex;
+  height: 35%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.animalForm {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.animal-preview-container {
+  display: block;
+}
+
+.animalImg {
+  height: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
